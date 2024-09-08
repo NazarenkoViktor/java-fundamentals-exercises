@@ -40,6 +40,7 @@ public class ExerciseIntroduction {
      * @return encoded message
      */
     public String encodeMessage(String message) {
+        /*this is a comment*/
         return Base64.getEncoder().encodeToString(message.getBytes());
     }
 }
